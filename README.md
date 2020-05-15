@@ -1,1 +1,2 @@
-# social-pollination-map
+# socialpollination
+social-pollination-map
