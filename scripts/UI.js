@@ -163,7 +163,7 @@ var spinner = new Spinner(opts).spin(target);
 
 }
 UI.prototype.buildCategories= function(categories){
-    cats=["Social Media            ","Hosting           ","VC        ","Site Submission ","Search Engines            ","Product Launch Videos","Open source tools","Top Global sites    ","","","","","","","",""];
+    cats=["Social Media","Hosting","VC","Site Submission","Search Engines","Product Launch Videos","Open source tools","Top Global sites","FaceBook","Twitter","Linkedin","Instagram","Tik Tok","Reddit","Snapchat",""];
     var catHTML="<table><tr>";
     $.each(categories,function(i,val){
             color=new THREE.Color(i);
