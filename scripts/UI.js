@@ -86,7 +86,7 @@ function UI() {
         "img": "images/icon/stacks32.png",
         "desc": "Stacks every product a country exports on a map, each row represents $2.5B"
     });
-    buttons.push({
+    /*buttons.push({
         "id": "productButton3",
         "title": "3d product space",
         "img": "images/icon/graph2.png",
@@ -103,7 +103,7 @@ function UI() {
         "title": "Product Stacks",
         "img": "images/icon/stack2.png",
         "desc": "Stacks products by category"
-    });
+    });*/
 
     newDiv="<table>";
     for (var i = 0; i < buttons.length; i++) {
