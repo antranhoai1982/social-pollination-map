@@ -86,13 +86,13 @@ function UI() {
         "img": "images/icon/stacks32.png",
         "desc": "Stacks every product a country exports on a map, each row represents $2.5B"
     });
-    /*buttons.push({
+    buttons.push({
         "id": "productButton3",
         "title": "3d product space",
         "img": "images/icon/graph2.png",
         "desc": "3D version of the productspace, hop around by clicking on nodes"
     });
-    buttons.push({
+    /*buttons.push({
         "id": "productButton",
         "title": "Product Space",
         "img": "images/icon/graph22.png",
