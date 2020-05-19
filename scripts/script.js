@@ -215,7 +215,7 @@ function init() {
             UserInterface.createSelectionBox(countries);
 
 
-            $.getJSON("data/productspace.json", function(pspace){
+            /*$.getJSON("data/productspace.json", function(pspace){
                 $.each(pspace,function(p,values){
                     ID=p;
                     for(var add=0;add<4-p.length;add++){
@@ -235,7 +235,7 @@ function init() {
                 filterProduct=$(this).val();
                 console.log($(this).val())
                 });
-            });
+            });*/
             countryIndex=124;
             particles=153726;
             var positions = new Float32Array( particles * 3 );
@@ -1876,7 +1876,7 @@ case "anchorButton":switcher("cities",false,5);break;
 case "probaButton":switcher("probability",false,5);break;
 case "blendButton":switcher("blend",false,5);break;
 case "centerButton":switcher("centroid",false,5);break;
-case "towersButton":switcher("towers",false,5);break;
+//case "towersButton":switcher("towers",false,5);break;
 case "histButton":switcher("histogram",false,5);break;
 case "groupButton":switcher("groupby",false,5);break;
 case "groupCButton":switcher("groupbyc",false,5);break;
@@ -1894,7 +1894,9 @@ case "productButton3":switcher("productsphere",false,5);$(".countrySelection").s
 });
 
 
-
+$("#towersButton").click(function() {
+    window.open("http://searchtile.com/socialmedia2.htm", '_blank');
+});
 
 $("#skipStoryLine").click(function(){
     storyMode=false;

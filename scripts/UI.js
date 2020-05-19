@@ -82,17 +82,17 @@ function UI() {
     });
     buttons.push({
         "id": "towersButton",
-        "title": "Country Stacks",
-        "img": "images/icon/stacks32.png",
-        "desc": "Stacks every product a country exports on a map, each row represents $2.5B"
-    });
-    buttons.push({
-        "id": "productButton3",
-        "title": "3d product space",
+        "title": "Galactic View",
         "img": "images/icon/graph2.png",
-        "desc": "3D version of the productspace, hop around by clicking on nodes"
+        "desc": "Galactic View, hop around by clicking on nodes"
     });
     /*buttons.push({
+        "id": "productButton3",
+        "title": "Galactic View",
+        "img": "images/icon/graph2.png",
+        "desc": "Galactic View, hop around by clicking on nodes"
+    });
+    buttons.push({
         "id": "productButton",
         "title": "Product Space",
         "img": "images/icon/graph22.png",
@@ -178,7 +178,7 @@ UI.prototype.updateLoader = function(add){
     percentage=this.loading;
     $("#loadingBar").animate({'width':percentage/100*500},100);
 }
-UI.prototype.createProductBox = function(products) {
+/*UI.prototype.createProductBox = function(products) {
     var html='<select class="productSelection"><option value="null" selected="selected">Select a product</option>';
 
     $.each(products,function(i,val){
@@ -188,7 +188,7 @@ UI.prototype.createProductBox = function(products) {
     $(".productBox").html(html);
     $(".productSelection").select2({placeholder: "Select a product",allowClear: true});
     
-};
+};*/
 
 UI.prototype.changeCursor = function(type,blocked){
     $('body').removeClass("grab");
