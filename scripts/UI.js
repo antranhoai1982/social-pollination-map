@@ -212,13 +212,13 @@ UI.prototype.changeCursor = function(type,blocked){
 };
 
 UI.prototype.createSelectionBox = function(countries) {
-    var html='<select class="countrySelection"><option value="null" selected="selected">Select a country</option>';
+    var html='<select class="countrySelection"><option value="null" selected="selected">Select a social media</option>';
 
     $.each(countries,function(i,val){
         html+="<option value ='"+i+"'>"+val.name+"</option>";
     });
     html+="</select>";
     $(".selectionBox").html(html);
-    $(".countrySelection").select2({placeholder: "Select a country",allowClear: true});
+    $(".countrySelection").select2({placeholder: "Select a social media",allowClear: true});
     
 };

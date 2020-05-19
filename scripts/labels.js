@@ -15,7 +15,7 @@ function LabelManager(countries){
 
     countryHTML="";
     $.each(countries,function(co,country){
-         countryHTML+="<a href='#' class='chosenCountry' id='"+co+"'>"+country.name+"</a><br/>";
+         countryHTML+="<a href='" + country.url + "' target='_blank' class='chosenCountry' id='"+co+"'>"+country.name+"</a><br/>";
     });        
     $("#countries").html(countryHTML);
 };

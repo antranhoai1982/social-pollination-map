@@ -900,8 +900,9 @@ function targetCountry(co,linksOn,center){
 
 
     if(!storyMode){
-        $("#atlasBox").html("<div class='optionSeparator'>&nbsp;</div><div class='sectionTitle'>Click to view more exports:</div><a target='blank' href='http://atlas.cid.harvard.edu/explore/tree_map/export/"+target.iso.toLowerCase()+"/all/show/2012/'><img src='images/atlasimages/"+co+".png' id='treeMapImage' onError=\"this.onerror=null;this.src='images/noimage.png';\"/></a></div>");
-        $("#atlasBox").stop().fadeIn();
+        //window.open(target.url, '_blank');
+        //$("#atlasBox").html("<div class='optionSeparator'>&nbsp;</div><div class='sectionTitle'>Click to view more exports:</div><a target='blank' href='http://atlas.cid.harvard.edu/explore/tree_map/export/"+target.iso.toLowerCase()+"/all/show/2012/'><img src='images/atlasimages/"+co+".png' id='treeMapImage' onError=\"this.onerror=null;this.src='images/noimage.png';\"/></a></div>");
+        //$("#atlasBox").stop().fadeIn();
     }
 
      break;
